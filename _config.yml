@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yoyo homepage 💝"
-description              : # "PhD Candidate in Computer Science
+title                    : "You Wu (Yoyo) - Computer Science PhD Candidate, CUNY"
+description              : "Academic website of You Wu, PhD Candidate in Computer Science at CUNY specializing in AI, computational biology, and drug discovery."
 repository               : "AdorableYoyo/AdorableYoyo.github.io"
 google_scholar_stats_use_cdn : true
 

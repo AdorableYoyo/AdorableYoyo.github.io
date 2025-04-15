@@ -1,18 +1,54 @@
-html, body {
-  background-image: url('/images/background.jpg') !important;
-  background-attachment: fixed !important;
-  background-size: cover !important;
-  background-position: center !important;
-  min-height: 100% !important;
+/* Section spacing for main headings (h1) */
+.page__content h1 {
+  margin-top: 100px;
+  padding-top: 50px;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 12px;
+  border-bottom: 3px solid #fed7e2;
+  color: #d53f8c;
 }
 
-.page__content {
-  background-color: rgba(255, 255, 255, 0.85);
-  padding: 20px;
-  border-radius: 8px;
+/* First heading shouldn't have as much top margin */
+.page__content h1:first-of-type {
+  margin-top: 40px;
 }
 
-.sidebar {
-  background-color: rgba(255, 255, 255, 0.85);
-  border-radius: 8px;
+/* Add a strong visual separator after each main section (except the last) */
+/* .page__content h1:not(:last-of-type)::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #dd1c53, transparent);
+  margin-top: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: -70px;
+} */
+
+/* Style for subsections (h2) */
+.page__content h2 {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: 4px solid #fed7e2;
+  font-size: 1.25em;
+}
+
+/* Add more space between list items */
+.page__content ul li {
+  margin-bottom: 20px;
+}
+
+/* Add some breathing room between paragraphs */
+.page__content p {
+  margin-bottom: 18px;
+}
+
+/* Add spacing for nested list items */
+.page__content ul li ul li {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }

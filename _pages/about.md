@@ -19,12 +19,36 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a PhD candidate in Computer Science at CUNY Graduate Center, where I build AI systems that decode biology and reimagine drug discovery—think virtual humans simulating drug responses before trials begin. Advised by Dr. Lei Xie (CUNY & Weill Cornell), my work spans self-supervised learning(e.g.,large language model), transfer-learning, meta-learning, multi-modal learning,
- computational biology, multi-omics data integration, drug discovery, and precision medicine.
+<!-- Flex container: Graph left, bio right -->
+<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
 
-In summer 2023, I spent six months at Genentech, working with the Clinical Pharmacology and Research Biology teams to build an AI model for survival prediction—merging patient genomics with clinical data to guide therapy decisions.
+  <!-- Left column: Network Graph -->
+  <div id="network-container" style="flex: 1; min-width: 400px; height: 600px; border-radius: 10px; background-color: rgba(255, 255, 255, 0.7);"></div>
 
-I'm excited to see how AI will transform the way we understand the human body—and help design the next generation of truly personalized medicine.
+  <!-- Right column: Bio -->
+  <div style="flex: 1; min-width: 320px; max-width: 600px;">
+
+  <p>I’m a PhD candidate in Computer Science at CUNY Graduate Center, where I build AI systems that decode biology and reimagine drug discovery—think virtual humans simulating how drugs work before trials begin. I’m advised by Dr. Lei Xie (The City University of New York & Weill Cornell), and my work spans large language models, multi-modal learning, computational biology, and precision medicine.</p>
+
+  <p>My path here wasn’t exactly linear: from circuit boards (undergrad in electronic engineering), to fashion (ran my own clothing store for 3 years), to data science (MS), and now to machine learning for biology. I never stop challenging myself—and that’s the fun part.</p>
+
+  <p>In summer 2023, I spent 6 months at Genentech, where I worked across Clinical Pharmacology and Research Biology to develop an AI model for survival prediction—integrating genomics and clinical data to guide personalized therapy.</p>
+
+  <p>I’m excited by big questions like:<br>
+  • Can we simulate an individual’s biology before testing a drug?<br>
+  • What if we could transfer knowledge from one disease to another?<br>
+  • How close are we to a universal foundation model of human health?</p>
+
+  <p>Let’s find out 🤗.</p>
+
+  </div>
+</div>
+
+<!-- Load scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="/assets/js/network.js"></script>
+
+
 
 # 📝 Publications 
 
@@ -59,7 +83,7 @@ I'm excited to see how AI will transform the way we understand the human body—
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023</div><img src='images/transpro.jpg' alt="Hierarchical integration" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023</div><img src='images/transpro.jpeg' alt="Hierarchical integration" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Hierarchical multi-omics data integration and modeling predict cell-specific chemical proteomics and drug responses](https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(23)00071-1)
@@ -104,7 +128,7 @@ He, D., Liu, Q., **Wu, Y**, Xie, L.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2021</div><img src='images/molgnn.jpeg' alt="COVID-19" width="100%"></div></div> 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2021</div><img src='images/covid.jpeg' alt="COVID-19" width="100%"></div></div> 
 <div class='paper-box-text' markdown="1"> 
 
 [COVID-19 multi-targeted drug repurposing using few-shot learning](https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2021.693177/full)

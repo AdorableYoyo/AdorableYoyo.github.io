@@ -30,7 +30,7 @@ I'm excited to see how AI will transform the way we understand the human body—
 
 ## Journal Articles
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/omics.jpg' alt="Multi-omics integration" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/omics.jpeg' alt="Multi-omics integration" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AI-driven multi-omics integration for multi-scale predictive modeling of genotype-environment-phenotype relationships](https://www.sciencedirect.com/science/article/pii/S2001037024004513)
@@ -44,7 +44,7 @@ I'm excited to see how AI will transform the way we understand the human body—
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/mmaple.png' alt="Meta learning" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/mmaple.jpeg' alt="Meta learning" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Semi-supervised meta-learning elucidates understudied molecular interactions](https://www.nature.com/articles/s42003-024-06797-z)
@@ -74,7 +74,7 @@ I'm excited to see how AI will transform the way we understand the human body—
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2022</div><img src='images/multidcp.png' alt="Deep learning" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2022</div><img src='images/multidcp.jpeg' alt="Deep learning" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Deep learning prediction of chemical-induced dose-dependent and context-specific multiplex phenotype responses and its application to personalized Alzheimer's disease drug repurposing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010367)
@@ -89,7 +89,7 @@ I'm excited to see how AI will transform the way we understand the human body—
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2022</div><img src='images/codeae.png' alt="Autoencoder" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2022</div><img src='images/codeae.jpeg' alt="Autoencoder" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A context-aware deconfounding autoencoder for robust prediction of personalized clinical drug response from cell-line compound screening](https://www.nature.com/articles/s42256-022-00541-0)
@@ -104,7 +104,7 @@ He, D., Liu, Q., **Wu, Y**, Xie, L.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2021</div><img src='images/molgnn.png' alt="COVID-19" width="100%"></div></div> 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2021</div><img src='images/molgnn.jpeg' alt="COVID-19" width="100%"></div></div> 
 <div class='paper-box-text' markdown="1"> 
 
 [COVID-19 multi-targeted drug repurposing using few-shot learning](https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2021.693177/full)
@@ -121,7 +121,7 @@ Liu, Y., **Wu, Y**, Shen, X., Xie, L.
 
 ## Conference Papers & Workshop Papers
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/gstab.png' alt="Guided STab" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024</div><img src='images/gstab.jpeg' alt="Guided STab" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Multitask-Guided Self-Supervised Tabular Learning for Patient-Specific Survival Prediction](https://proceedings.mlr.press/v240/wu24a.html)
@@ -136,7 +136,7 @@ Liu, Y., **Wu, Y**, Shen, X., Xie, L.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2020</div><img src='images/molgnn.png' alt="MoLGNN" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2020</div><img src='images/molgnn.jpeg' alt="MoLGNN" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MoLGNN: Self-supervised motif learning graph neural network for drug discovery](https://link)

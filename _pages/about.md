@@ -18,30 +18,37 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-
 <!-- Flex container: Graph left, bio right -->
-<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
-
+<div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: flex-start; margin: 30px 0;">
+  
   <!-- Left column: Network Graph -->
-  <div id="network-container" style="flex: 1; min-width: 400px; height: 600px; border-radius: 10px; background-color: rgba(255, 255, 255, 0.7);"></div>
-
-  <!-- Right column: Bio -->
-  <div style="flex: 1; min-width: 320px; max-width: 600px;">
-
-  <p>I’m a PhD candidate in Computer Science at CUNY Graduate Center, where I build AI systems that decode biology and reimagine drug discovery—think virtual humans simulating how drugs work before trials begin. I’m advised by Dr. Lei Xie (The City University of New York & Weill Cornell), and my work spans large language models, multi-modal learning, computational biology, and precision medicine.</p>
-
-  <p>My path here wasn’t exactly linear: from circuit boards (undergrad in electronic engineering), to fashion (ran my own clothing store for 3 years), to data science (MS), and now to machine learning for biology. I never stop challenging myself—and that’s the fun part.</p>
-
-  <p>In summer 2023, I spent 6 months at Genentech, where I worked across Clinical Pharmacology and Research Biology to develop an AI model for survival prediction—integrating genomics and clinical data to guide personalized therapy.</p>
-
-  <p>I’m excited by big questions like:<br>
-  • Can we simulate an individual’s biology before testing a drug?<br>
-  • What if we could transfer knowledge from one disease to another?<br>
-  • How close are we to a universal foundation model of human health?</p>
-
-  <p>Let’s find out 🤗.</p>
-
+  <div style="flex: 1.2; min-width: 450px;">
+    <div id="network-container" style="width: 100%; height: 650px; border-radius: 10px; background-color: rgba(255, 255, 255, 0.7); padding: 10px; box-sizing: border-box;"></div>
+    <div style="font-size: 0.85em; color: #666; text-align: center; margin-top: 10px; font-style: italic;"></div>
   </div>
+  
+  <!-- Right column: Bio -->
+  <div style="flex: 1; min-width: 300px; max-width: 550px;">
+    <p>I am a Postdoctoral Researcher at the Center for Drug Discovery, Northeastern University, where I develop AI systems that bridge molecular mechanisms to whole-body physiology. My work focuses on creating multi-scale learning algorithms that predict drug interactions and optimize treatments for individual patients. I am also exploring uncertainty-aware reinforcement learning to make generative AI models more reliable for scientific and therapeutic decision-making.</p>
+    
+    <p>I am also a Co-Founder and AI/ML Scientist at Dark Matter Therapeutics, where we aim to translate the concept of virtual humans into practice—using AI-driven modeling to accelerate precision drug discovery.</p>
+    
+    <p>I completed my PhD in Computer Science at the Graduate Center, The City University of New York, advised by Dr. Lei Xie (CUNY, Weill Cornell Medicine, and Northeastern). My doctoral research focused on large language models, multi-modal learning, meta-learning, and self-supervised learning for computational biology and precision medicine, building AI frameworks that decode complex biological systems and simulate drug responses before clinical trials.</p>
+    
+    <p>Previously, I worked at Genentech, developing machine learning models that integrate genomic and clinical data for patient survival prediction and personalized therapy design.</p>
+    
+    <p>My path to AI and biology has been interdisciplinary: starting in electronic engineering, evolving through entrepreneurship in fashion retail, advancing through data science, and culminating in machine learning for biology. I never stop challenging myself, and that's the fun part.</p>
+    
+    <p style="margin-bottom: 8px;"><strong>I'm inspired by questions like:</strong></p>
+    <ul style="margin-top: 0; padding-left: 25px; line-height: 1.6;">
+      <li>Can we simulate an individual's biology before testing a drug?</li>
+      <li>What if knowledge could transfer seamlessly from one disease to another?</li>
+      <li>How close are we to a universal foundation model of human health?</li>
+    </ul>
+    
+    <p style="margin-top: 15px;">Let's find out 🤗.</p>
+  </div>
+  
 </div>
 
 <!-- Load scripts -->
@@ -53,6 +60,24 @@ redirect_from:
 # 📝 Publications 
 
 ## Journal Articles
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/PVH.png' alt="Programmable Virtual Human" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[AI-powered programmable virtual humans toward human physiologically-based drug discovery](https://www.sciencedirect.com/science/article/pii/S1359644625002107)
+
+**Wu, Y**, Xie, L.
+
+*Drug Discovery Today, Volume 30, Issue 11*
+
+- Programmable virtual humans simulate the efficacy and safety of a novel compound in a physiological condition
+- They enable in silico testing of patient responses to a new chemical entity beyond current experimental pipelines
+- They bridge early drug discovery and clinical development to reduce drug failure rates
+- They transform target- and phenotype-based discovery into a physiology-driven paradigm
+- AI, mechanistic models, and perturbation omics enable programmable virtual humans
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/omics.jpeg' alt="Multi-omics integration" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -178,7 +203,7 @@ Shen, X., Liu, Y., **Wu, Y**, Xie, L.
 
 # 📖 Educations
 
-- *2020 - 2025 (Expected)*, Ph.D. in Computer Science, City University of New York, The Graduate Center, New York, NY, USA
+- *2020 - 2025*, Ph.D. in Computer Science, City University of New York, The Graduate Center, New York, NY, USA
   - Advisor: Dr. Lei Xie (City University of New York & Weill Cornell Medicine)
   - Research area: Self-supervised learning (e.g., large language model), transfer learning, meta-learning, multi-modal Learning, computational biology, multi-omics data integration, drug discovery, and precision medicine
 
@@ -190,7 +215,8 @@ Shen, X., Liu, Y., **Wu, Y**, Xie, L.
 # 💬 Presentations
 
 ## Invited Talks
-- *Fall 2024*, AI-driven multi-omics integration for multi-scale predictive modeling of causal genotype-environment-phenotype relationships. Vanderbilt University Medical Center, Virtual
+- *Fall 2025*, AI-Driven Drug Discovery and Precision Medicine. Rutgers University
+- *Fall 2024*, AI-driven multi-omics integration for multi-scale predictive modeling of causal genotype-environment-phenotype relationships. Vanderbilt University Medical Center
 - *Spring 2024*, Harnessing AI for Omics-Driven Drug Discovery. Appel Forum WIPS, Weill Cornell Medicine, NYC
 - *Summer 2023*, MultiDCP: A chemical perturbation deep learning modeling for dose-dependent and context-specific multiplex phenotype responses. Genentech, South San Francisco, CA
 

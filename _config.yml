@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "You Wu (Yoyo) - Computer Science PhD Candidate, CUNY"
-description              : "Academic website of You Wu, PhD Candidate in Computer Science at CUNY specializing in AI, computational biology, and drug discovery."
+title                    : "You Wu (Yoyo)"
+description              : "Welcome to the website of You Wu :)"
 repository               : "AdorableYoyo/AdorableYoyo.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "You (Yoyo) Wu 🎀"
   avatar           : "images/profile.png"  # Add your profile photo to the images folder
-  bio              : "PhD Candidate 👩🏻‍💻Computer Science 🧬CompBio  @CUNY Graduate Center"
-  location         : "New York, NY"
-  employer         : "City University of New York"
+  bio              : "Ph.D 👩🏻‍💻Computer Science @CUNY, Post-Doc @Northeastern, Co-Founder @DMTx"
+  location         : "Boston, MA"
+  employer         : "Northeastern University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=6jgRsSAAAAAJ"  # Update with your ID
-  email            : "ywu1@gradcenter.cuny.edu"
+  email            : "yo.wu@northeastern.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

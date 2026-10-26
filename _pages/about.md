@@ -31,7 +31,7 @@ redirect_from:
   <div style="flex: 1; min-width: 300px; max-width: 550px;">
     <p>I am a Postdoctoral Researcher at the Center for Drug Discovery, Northeastern University, where I develop AI systems that bridge molecular mechanisms to whole-body physiology. My work focuses on creating multi-scale learning algorithms that predict drug interactions and optimize treatments for individual patients. I am also exploring uncertainty-aware reinforcement learning to make generative AI models more reliable for scientific and therapeutic decision-making.</p>
     
-    <p>I am also a Co-Founder and AI/ML Scientist at Dark Matter Therapeutics, where we aim to translate the concept of virtual humans into practice—using AI-driven modeling to accelerate precision drug discovery.</p>
+    <p>I am also a Co-Founder at Dark Matter Therapeutics, where we aim to translate the concept of virtual humans into practice—using AI-driven modeling to accelerate precision drug discovery.</p>
     
     <p>I completed my PhD in Computer Science at the Graduate Center, The City University of New York, advised by Dr. Lei Xie (CUNY, Weill Cornell Medicine, and Northeastern). My doctoral research focused on large language models, multi-modal learning, meta-learning, and self-supervised learning for computational biology and precision medicine, building AI frameworks that decode complex biological systems and simulate drug responses before clinical trials.</p>
     
